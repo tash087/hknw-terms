@@ -1,0 +1,11 @@
+name = "hknw-terms"
+main = "src/index.js"
+compatibility_date = "2024-04-21"
+
+[[routes]]
+pattern = "terms.hknw.link"
+zone_id = ""  # 後で入力（Cloudflareダッシュボードから取得）
+
+[vars]
+GITHUB_REPO = "tash087/hknw-terms"
+GITHUB_BRANCH = "main"
