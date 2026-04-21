@@ -1,6 +1,6 @@
 # Hakoniwa Link (hknw.link) Privacy Policy
 
-[日本語はこちら](/jp/privacy_jp)
+[日本語はこちら](/jp/privacy)
 
 ## Operator
 HAKONIWA Studio

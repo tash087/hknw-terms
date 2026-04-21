@@ -1,6 +1,6 @@
 # Hakoniwa Link (hknw.link) Disclaimer
 
-[日本語はこちら](/jp/disclaimer_jp)
+[日本語はこちら](/jp/disclaimer)
 
 ## Operator
 HAKONIWA Studio

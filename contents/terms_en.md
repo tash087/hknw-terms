@@ -1,6 +1,6 @@
 # Hakoniwa Link (hknw.link) Terms of Service
 
-[日本語はこちら](/jp/terms_jp)
+[日本語はこちら](/jp/terms)
 
 ## Operator
 HAKONIWA Studio
