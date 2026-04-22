@@ -30,7 +30,7 @@ HAKONIWA Studio
    - Emotional distress or social disadvantage
 
 2. End Users shall confirm the following points **at their own risk** before clicking a shortened URL:
-   - The destination display (where they will be redirected)
+   - The destination display (the destination URL shown on the landing page)
    - The reliability of the destination site
    - Whether they have security software installed
 
@@ -100,13 +100,9 @@ HAKONIWA Studio
 
 ## Article 9: Reporting Contact
 
-If you discover a shortened URL that falls under Prohibited Activities (Article 3 of the Terms of Service) or wish to report any other issues, please contact us at:
+If you discover a shortened URL that falls under Prohibited Activities (Article 4 of the Terms of Service) or wish to report any other issues, please contact us at:
 
-- **Abuse Reporting Email**: abuse@hknw.link (temporary)
-- **Legal Inquiries / Disclaimer Questions**: legal@hknw.link (temporary)
+- **Abuse Reporting Email**: abuse@hknw.link
+- **Legal Inquiries / Disclaimer Questions**: legal@hknw.link
 
 We will review reported content at our discretion and take necessary actions (such as URL invalidation).
-
----
-
-**By using this Service, you are deemed to have agreed to the above Disclaimer.**

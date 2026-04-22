@@ -9,9 +9,9 @@ HAKONIWA Studio
 
 ## Article 1: Basic Policy
 
-HAKONIWA Studio (hereinafter referred to as "we," "us," or "our") respects the privacy of users who generate shortened URLs (hereinafter referred to as "Users") and third parties who click on shortened URLs (hereinafter referred to as "End Users") of our URL shortening service "hknw.link" (hereinafter referred to as "the Service"). Our fundamental policy is to **intentionally refrain from collecting or storing personally identifiable information**.
+HAKONIWA Studio (hereinafter referred to as "we," "us," or "our") respects the privacy of users who generate shortened URLs (hereinafter referred to as "Users") and third parties who click on shortened URLs (hereinafter referred to as "End Users") of our URL shortening service "hknw.link" (hereinafter referred to as "the Service"). Our fundamental policy is to **keep personally identifiable information to the absolute minimum necessary**.
 
-Based on the concept of **"Privacy by Design,"** the Service collects only the minimum necessary information and does not acquire any data that constitutes "personal information."
+Based on the concept of **"Privacy by Design,"** the Service collects information only to the extent necessary for the provision of the Service.
 
 ---
 
@@ -34,6 +34,7 @@ The Service collects the following information when a shortened URL is accessed:
 |------|-------------|-------|
 | Short ID | 6-character random identifier created by the User | Required for link management |
 | Destination URL | Original URL registered by the User | Required for redirect functionality |
+| Email Address | Email address registered by Registered Users for authentication | Required for login and data synchronization |
 
 ---
 
@@ -47,7 +48,7 @@ The Service **does not collect any of the following information**:
 | Device Identifiers | Device ID, MAC address, IMEI |
 | Browser-related | Browser fingerprint, detailed user agent※ |
 | Location Data | GPS coordinates, precise geolocation information |
-| Personally Identifiable Information | Name, email address, phone number, physical address |
+| Personally Identifiable Information (except email) | Name, phone number, physical address |
 | Tracking Technologies | Cookies (including session cookies - none used at all) |
 | Cross-site Tracking | Tracking of behavior across different websites |
 
@@ -62,6 +63,7 @@ The Service **does not collect any of the following information**:
 | Individual Click Logs | **90 days** | Automatically deleted from D1 database after this period |
 | Aggregated Statistics (Total Clicks) | Indefinite | Retained as long as the link is active |
 | Link Information (Short ID + Destination URL) | Indefinite | Users cannot delete this themselves※ |
+| Email Address | Duration of account validity | Users can request deletion at any time (separate process required) |
 
 > ※ Link deletion functionality may be implemented in the future. Currently, we do not accept deletion requests.
 
@@ -74,6 +76,8 @@ Collected information is used only for the following purposes:
 1. **Service Provision**
    - Correct redirect processing from shortened URLs
    - Display of the landing page (with masking tape animation)
+   - Login functionality via email authentication
+   - Data synchronization across multiple devices for the same account
 
 2. **Service Improvement and Optimization**
    - Analysis of access trends (e.g., access patterns by time of day)
@@ -81,7 +85,7 @@ Collected information is used only for the following purposes:
 
 3. **Detection of Unauthorized or Prohibited Activities**
    - Identifying abnormal access patterns caused by spam or bots
-   - Discovering URLs that violate prohibited activities (Article 3 of Terms of Service)
+   - Discovering URLs that violate prohibited activities (Article 4 of Terms of Service)
 
 4. **Advertising Effectiveness Measurement** (planned for future implementation)
    - Calculation of click-through rates for ads displayed on the landing page
@@ -118,9 +122,13 @@ These companies process data according to our instructions and are prohibited fr
 If an End User wishes to have their own access logs deleted, we will respond as follows:
 
 - **Feasibility**: In principle, since **individuals cannot be identified**, we cannot identify and delete specific accesses.
-- **Alternative Measure**: If you wish to reset statistics for a specific shortened URL entirely, please contact us at abuse@hknw.link (temporary). However, we may decline such requests at our discretion.
+- **Alternative Measure**: If you wish to reset statistics for a specific shortened URL entirely, please contact us at abuse@hknw.link. However, we may decline such requests at our discretion.
 
-### 7.2 Opt-Out (Refusal of Collection)
+### 7.2 Registered User Data Deletion
+
+If a Registered User wishes to delete their account and associated data, please contact us at abuse@hknw.link. We will delete data associated with that email address within a reasonable period.
+
+### 7.3 Opt-Out (Refusal of Collection)
 
 If End Users do not wish to have statistical information collected:
 
@@ -139,6 +147,7 @@ We implement the following measures to protect collected information:
 | Access Control | D1 database access is permitted only from Workers (no direct access) |
 | Principle of Least Privilege | Operators do not have access to more data than necessary |
 | Regular Audits | Inventory of collected data is reviewed quarterly |
+| Passwordless Authentication | Verification code method eliminates the risk of password list attacks |
 
 ---
 
@@ -147,7 +156,7 @@ We implement the following measures to protect collected information:
 The Service **does not intentionally collect information from individuals under the age of 13**.
 
 - If Users under 13 use the Service, they shall do so **with parental consent**.
-- If a parent believes their child's information has been collected, please contact us at abuse@hknw.link (temporary).
+- If a parent believes their child's information has been collected, please contact us at abuse@hknw.link.
 
 ---
 
@@ -164,7 +173,7 @@ The Service **does not intentionally collect information from individuals under 
 In the unlikely event of a data breach involving collected information:
 
 1. **Investigation of Impact**: Identify the breached information and analyze the cause
-2. **Notification to Users**: Contact potentially affected Users (since we do not collect email addresses, notification will be via posting on the Service only)
+2. **Notification to Users**: Contact potentially affected Users (by email if a registered email address exists; otherwise, via posting on the Service only)
 3. **Preventive Measures**: Implement technical and operational countermeasures
 4. **Report to Authorities**: Report to Japan's Personal Information Protection Commission or other relevant authorities as required by law
 
@@ -176,11 +185,11 @@ For inquiries regarding this Privacy Policy or questions about data processing, 
 
 | Purpose | Contact |
 |---------|---------|
-| General privacy inquiries | privacy@hknw.link (temporary) |
-| Data deletion requests | abuse@hknw.link (temporary) |
-| Legal inquiries | legal@hknw.link (temporary) |
+| General privacy inquiries | privacy@hknw.link |
+| Data deletion requests | abuse@hknw.link |
+| Legal inquiries | legal@hknw.link |
 
-**Business Hours**: Weekdays 10:00 - 18:00 (Japan Time / UTC+9)  
+**Estimated Response Time**: Approximately 4 days after inquiry (excluding weekends and holidays)
 **Languages**: Japanese, English (consultation available)
 
 ---
